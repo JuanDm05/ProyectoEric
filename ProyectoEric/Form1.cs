@@ -15,9 +15,7 @@ namespace ProyectoEric
         public Form1()
         {
             InitializeComponent();
-            Bitmap img = new Bitmap(Application.StartupPath + @"\img\Violin.jpg");
-            this.BackgroundImage = img;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -73,6 +71,11 @@ namespace ProyectoEric
             Listas listas = new Listas();
             listas.Show();
             this.Hide();    
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -15,9 +15,6 @@ namespace ProyectoEric
         public Matrices()
         {
             InitializeComponent();
-            Bitmap img = new Bitmap(Application.StartupPath + @"\img\Violin.jpg");
-            this.BackgroundImage = img;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void button1_Click(object sender, EventArgs e)
